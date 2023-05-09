@@ -5,6 +5,11 @@
   <groupId>org.example</groupId>
   <artifactId>SpringCloud</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>payment8001</module>
+    <module>order80</module>
+      <module>common-api</module>
+  </modules>
   <packaging>pom</packaging>
 
   <name>Maven</name>

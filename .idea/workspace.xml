@@ -4,30 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b14c8f-eb25-416b-8a12-2231fd1b4716" name="Changes" comment="springcloud day1">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/entities/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order80/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order80/src/main/java/com/yc/OrderMain80.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order80/src/main/java/com/yc/config/ApplicationContextConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order80/src/main/java/com/yc/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order80/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/PaymentMain8001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/controller/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/dao/PaymentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/entities/CommonResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/entities/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/service/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="93b14c8f-eb25-416b-8a12-2231fd1b4716" name="Changes" comment="spring day2">
+      <change afterPath="$PROJECT_DIR$/concul-consumer-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concul-consumer-order80/src/main/java/ycc/OrderMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concul-consumer-order80/src/main/java/ycc/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concul-consumer-order80/src/main/java/ycc/controller/OrderConSulController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concul-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server7001/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server7001/src/main/java/ycc/EurkaMain7001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurka-server7002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurka-server7002/src/main/java/ycc/EurkaMain7002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eurka-server7002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order80/src/main/java/com/myrule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/ycc/PaymentMain8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/ycc/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/ycc/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/ycc/entities/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/ycc/entities/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/ycc/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/java/ycc/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8004/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8004/src/main/java/ycc/PaymentMain8004.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8004/src/main/java/ycc/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8004/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8006/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8006/src/main/java/yccc/PaymentMain8006.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8006/src/main/java/yccc/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/payment8006/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeperconsumer-order80/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeperconsumer-order80/src/main/java/ycc/OrderZKMain80.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeperconsumer-order80/src/main/java/ycc/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeperconsumer-order80/src/main/java/ycc/controller/OrderZKController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeperconsumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order80/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/src/main/java/com/yc/OrderMain80.java" beforeDir="false" afterPath="$PROJECT_DIR$/order80/src/main/java/com/yc/OrderMain80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/src/main/java/com/yc/config/ApplicationContextConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order80/src/main/java/com/yc/config/ApplicationContextConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/src/main/java/com/yc/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order80/src/main/java/com/yc/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/src/main/java/ycc/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/PaymentMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/src/main/java/ycc/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/java/ycc/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/payment8001/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/apt/format.apt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/apt/index.apt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fml/faq.fml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fr/apt/format.apt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fr/apt/index.apt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fr/fml/faq.fml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/fr/xdoc/xdoc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/site.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/site_fr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/site/xdoc/xdoc.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +110,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/19907/Desktop/java项目/SpringCloud/SpringCloud/payment8001/src/main/java/ycc",
+    "last_opened_file_path": "C:/Users/19907/Desktop/java项目/SpringCloud/SpringCloud/concul-consumer-order80/src/main/java/ycc",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,10 +122,19 @@
     "spring.configuration.checksum": "e5544b6e7f3af499cb82efc85a523eee"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\19907\Desktop\java项目\SpringCloud\SpringCloud\concul-consumer-order80\src\main\java\ycc" />
+      <recent name="C:\Users\19907\Desktop\java项目\SpringCloud\SpringCloud\payment8002\src\main\java" />
+      <recent name="C:\Users\19907\Desktop\java项目\SpringCloud\SpringCloud\payment8002\src\main\resources" />
       <recent name="C:\Users\19907\Desktop\java项目\SpringCloud\SpringCloud\payment8001\src\main\java\ycc" />
       <recent name="C:\Users\19907\Desktop\java项目\SpringCloud\SpringCloud\order80\src\main\java\com\yc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\19907\Desktop\java项目\SpringCloud\SpringCloud\zookeeperconsumer-order80" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,7 +144,34 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderMain80">
+  <component name="RunManager" selected="Spring Boot.PaymentMain8002">
+    <configuration name="EurkaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server7001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ycc.EurkaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurkaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eurka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ycc.EurkaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="concul-consumer-order80" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ycc.OrderMain80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ycc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="order80" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yc.OrderMain80" />
@@ -118,14 +188,56 @@
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="payment8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="ycc.PaymentMain8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ycc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="payment8002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ycc.PaymentMain8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ycc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="payment8004" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ycc.PaymentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="payment8006" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="yccc.PaymentMain8006" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yccc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Spring Boot.PaymentMain8001" />
         <item itemvalue="Spring Boot.OrderMain80" />
+        <item itemvalue="Spring Boot.OrderMain80 (1)" />
+        <item itemvalue="Spring Boot.PaymentMain8006" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +252,8 @@
       <workItem from="1683530638139" duration="3205000" />
       <workItem from="1683613157884" duration="6372000" />
       <workItem from="1683621028761" duration="5345000" />
-      <workItem from="1683635430508" duration="665000" />
+      <workItem from="1683635430508" duration="1318000" />
+      <workItem from="1683686231931" duration="18803000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud day1">
       <created>1683552718324</created>
@@ -149,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683552718324</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="spring day2">
+      <created>1683641864133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683641864133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +288,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springcloud day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud day1" />
+    <MESSAGE value="spring day2" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring day2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,6 +9,13 @@
     <module>payment8001</module>
     <module>order80</module>
       <module>common-api</module>
+      <module>eureka-server7001</module>
+    <module>eurka-server7002</module>
+    <module>payment8002</module>
+      <module>payment8004</module>
+    <module>zookeeperconsumer-order80</module>
+      <module>payment8006</module>
+      <module>concul-consumer-order80</module>
   </modules>
   <packaging>pom</packaging>
 

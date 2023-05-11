@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.*;
 import ycc.entities.CommonResult;
 import ycc.service.PaymentService;
 
+import java.util.concurrent.TimeUnit;
+
 @RestController
 @Slf4j
 public class PaymentController {
@@ -37,5 +39,20 @@ public class PaymentController {
             return new CommonResult(200,"查询成功"+serverPort,payment);
         }
         return new CommonResult(444,"查询失败",null);
+    }
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;//返回服务接口
+    }
+    @GetMapping(value = "/payment/feign/timeout")
+    public String paymentFeignTimeout()
+    {
+        // 业务逻辑处理正确，但是需要耗费3秒钟
+       try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
     }
 }

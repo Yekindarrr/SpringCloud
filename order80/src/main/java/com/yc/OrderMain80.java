@@ -7,10 +7,11 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClient;
 import org.springframework.cloud.netflix.ribbon.RibbonClients;
+import org.springframework.context.annotation.ComponentScan;
 
-@EnableEurekaClient
+@EnableEurekaClient 
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
-@RibbonClient(name="cloud-payment-service",configuration = MySelfRule.class)
+
 public class OrderMain80 {
     public static void main(String[] args) {
         SpringApplication.run(OrderMain80.class,args);

@@ -16,6 +16,9 @@
     <module>zookeeperconsumer-order80</module>
       <module>payment8006</module>
       <module>concul-consumer-order80</module>
+      <module>feign-consumer-order80</module>
+      <module>hygtrix-payment8001</module>
+      <module>feign-hystrix-order80</module>
   </modules>
   <packaging>pom</packaging>
 

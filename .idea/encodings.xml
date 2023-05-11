@@ -11,6 +11,12 @@
     <file url="file://$PROJECT_DIR$/eureka-server7001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurka-server7002/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurka-server7002/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-consumer-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-consumer-order80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hystrix-order80/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/feign-hystrix-order80/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hygtrix-payment8001/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hygtrix-payment8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/payment8001/src/main/java" charset="UTF-8" />

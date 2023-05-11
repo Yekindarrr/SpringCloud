@@ -13,6 +13,7 @@ import ycc.service.PaymentService;
 
 import javax.annotation.Resource;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 @RestController
 @Slf4j
@@ -29,6 +30,8 @@ public class PaymentController {
     @Value("${spring.application.name}")
     private String applicationName;
 
+    //@RequestBody是作用在形参列表上，用于将前台发送过来固定格式的数据【xml格式 或者 json等】封装为对应的 JavaBean 对象，
+    //封装时使用到的一个对象是系统默认配置的 HttpMessageConverter进行解析，然后封装到形参上。
     @PostMapping("/payment/create")
     public CommonResult create(@RequestBody entities.Payment payment){
         int result = paymentService.create(payment);
@@ -61,5 +64,20 @@ public class PaymentController {
             log.info(instance.getServiceId()+"\t"+instance.getHost()+"\t"+instance.getPort()+"\t"+instance.getUri());
         }
         return this.discoveryClient;
+    }
+    @GetMapping(value = "/payment/lb")
+    public String getPaymentLB() {
+        return serverPort;//返回服务接口
+    }
+    @GetMapping(value = "/payment/feign/timeout")
+    public String paymentFeignTimeout()
+    {
+        // 业务逻辑处理正确，但是需要耗费3秒钟
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return serverPort;
     }
 }
